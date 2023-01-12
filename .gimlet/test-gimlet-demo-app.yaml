@@ -11,6 +11,7 @@ values:
   image:
     repository: ghcr.io/gimlet-io/demo-app
     tag: '{{ .SHA }}'
+  replicas: 2
 strategicMergePatches: ""
 json6902Patches: []
 manifests: ""
